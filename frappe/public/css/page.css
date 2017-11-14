@@ -4,13 +4,14 @@
 }
 .page-head {
   border-bottom: 1px solid #d1d8dd;
-  height: 70px;
+  height: auto;
   position: fixed;
   left: 0;
   right: 0;
   top: 41px;
   margin: auto;
-  background-color: #fff;
+  /*background-color: #fff;*/
+  background: linear-gradient(#bfdbff,#D6FFFE); /* Standard syntax */
   z-index: 101;
 }
 .sub-heading {

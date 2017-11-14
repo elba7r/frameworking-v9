@@ -174,11 +174,11 @@
 }
 h6.uppercase,
 .h6.uppercase {
-  font-size: 11px;
-  font-weight: normal;
+  font-size: 12px;
+  font-weight: bold;
   letter-spacing: 0.4px;
   text-transform: uppercase;
-  color: #8D99A6;
+  color: #000000;
 }
 .form-section {
   margin: 0px;
@@ -195,7 +195,7 @@ h6.uppercase,
   cursor: pointer;
 }
 .form-section .section-head .collapse-indicator {
-  color: #d1d8dd;
+  color: #000000;
   margin-left: 10px;
   position: relative;
   bottom: -1px;
@@ -212,6 +212,9 @@ h6.uppercase,
 }
 .empty-section {
   display: none !important;
+}
+.shaded-section {
+    background-color: #dedede;
 }
 .modal .form-layout {
   margin: -15px;
@@ -520,7 +523,7 @@ h6.uppercase,
 }
 .control-label,
 .grid-heading-row {
-  color: #8D99A6;
+  color: #4F4F4F;
   font-size: 12px;
 }
 .control-label {

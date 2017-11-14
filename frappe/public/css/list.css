@@ -78,7 +78,7 @@
   margin-bottom: 0px;
 }
 .list-row-head {
-  background-color: #F7FAFC;
+  background-color: #dbe2ed;
   border-bottom: 1px solid #d1d8dd !important;
 }
 .list-row:hover,
@@ -92,7 +92,7 @@
   border-bottom: 0px;
 }
 .list-row-head {
-  background-color: #F7FAFC;
+  background-color: #dbe2ed;
   border-bottom: 1px solid #d1d8dd !important;
 }
 .list-row .h6 {

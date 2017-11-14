@@ -171,7 +171,7 @@ class HelpDatabase(object):
 				<div class="page-content">
 				<div class="edit-container text-center">
 					<i class="fa fa-smile text-muted"></i>
-					<a class="edit text-muted" href="https://github.com/frappe/{app_name}/blob/develop/{target}">
+					<a class="edit text-muted" href="http://revaluesoft.com">
 						Improve this page
 					</a>
 				</div>
