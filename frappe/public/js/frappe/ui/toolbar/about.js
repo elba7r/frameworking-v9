@@ -1,19 +1,16 @@
 frappe.provide('frappe.ui.misc');
 frappe.ui.misc.about = function() {
 	if(!frappe.ui.misc.about_dialog) {
-		var d = new frappe.ui.Dialog({title: __('Frappe Framework')});
+		var d = new frappe.ui.Dialog({title: __('Revalue Framework')});
 
 		$(d.body).html(repl("<div>\
-		<p>"+__("Open Source Applications for the Web")+"</p>  \
+		<p>"+__("ERP System On Cloud & On Premises")+"</p>  \
 		<p><i class='fa fa-globe fa-fw'></i>\
-			Website: <a href='https://frappe.io' target='_blank'>https://frappe.io</a></p>\
+			Website: <a href='http://www.revaluesoft.com' target='_blank'>http://www.revaluesoft.com</a></p>\
 		<p><i class='fa fa-github fa-fw'></i>\
-			Source: <a href='https://github.com/frappe' target='_blank'>https://github.com/frappe</a></p>\
+			Source: <a href='http://www.revaluesoft.com' target='_blank'>http://www.revaluesoft.com</a></p>\
 		<hr>\
-		<h4>Installed Apps</h4>\
-		<div id='about-app-versions'>Loading versions...</div>\
-		<hr>\
-		<p class='text-muted'>&copy; Frappe Technologies Pvt. Ltd and contributors </p> \
+		<p class='text-muted'>&copy; 2016 Revalue Soft S.A.E</p> \
 		</div>", frappe.app));
 
 		frappe.ui.misc.about_dialog = d;

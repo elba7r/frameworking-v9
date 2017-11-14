@@ -969,8 +969,8 @@ def reset_otp_secret(user):
 		frappe.defaults.clear_default(user + '_otplogin')
 		frappe.defaults.clear_default(user + '_otpsecret')
 		email_args = {
-			'recipients':user_email, 'sender':None, 'subject':'OTP Secret Reset - {}'.format(otp_issuer or "Frappe Framework"),
-			'message':'<p>Your OTP secret on {} has been reset. If you did not perform this reset and did not request it, please contact your System Administrator immediately.</p>'.format(otp_issuer or "Frappe Framework"),
+			'recipients':user_email, 'sender':None, 'subject':'OTP Secret Reset - {}'.format(otp_issuer or "Revalue Framework"),
+			'message':'<p>Your OTP secret on {} has been reset. If you did not perform this reset and did not request it, please contact your System Administrator immediately.</p>'.format(otp_issuer or "Revalue Framework"),
 			'delayed':False,
 			'retry':3
 		}

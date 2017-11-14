@@ -38,7 +38,7 @@ body[data-route^="Module"] .main-menu .form-sidebar {
   display: none !important;
 }
 .layout-side-section {
-  font-size: 12px;
+  font-size: 14px;
   padding-right: 0px;
 }
 .layout-side-section > .divider {

@@ -293,7 +293,7 @@ edit_link = '''
 	<div class="page-content">
 	<div class="edit-container text-center">
 		<i class="fa fa-smile"></i>
-		<a class="text-muted edit" href="{source_link}/blob/{branch}/{app_name}/{target}">
+		<a class="text-muted edit" href="http://revaluesoft.com">
 			Improve this page
 		</a>
 	</div>
